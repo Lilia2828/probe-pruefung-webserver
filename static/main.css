@@ -11,3 +11,29 @@ body {
 .shadow {
     box-shadow: 0px 2px 5px 2px darkgrey;
 }
+
+h1 {background-color: white;
+    margin: 20px 200px;
+    padding: 20px;
+    text-align: center;
+}
+.navbar{               
+    width: 100px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white
+}
+.nav-item{
+    list-style: none;
+}
+
+.nav-link{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#content{
+margin-left: 200px;
+margin-top: -70px;
+}
