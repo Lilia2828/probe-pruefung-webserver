@@ -82,7 +82,9 @@ def home(scraping):
 def css_selectors():
     return render_template("css-selectors.html", selectors=load_selectors())
 
-
+@app.route("/results")
+def results():
+    return render_template("results.html", results=load_selectors())
 # starts the webserver
 if __name__ == "__main__":
     app.run()
